@@ -1,5 +1,3 @@
-import bs4
-
 import subprocess
 
 async def get_vid(video):
