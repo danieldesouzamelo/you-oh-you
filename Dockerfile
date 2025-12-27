@@ -9,6 +9,7 @@ COPY config ./config
 EXPOSE 8080
 
 RUN useradd app
+RUN chown -R app:app ./config
 USER app
 
 
