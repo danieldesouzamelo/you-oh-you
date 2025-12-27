@@ -5,6 +5,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src ./src
 COPY static ./static
 COPY templates ./templates
+COPY config ./config
 EXPOSE 8080
 
 RUN useradd app
