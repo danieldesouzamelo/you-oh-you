@@ -8,4 +8,4 @@ EXPOSE 8080
 RUN useradd app
 USER app
 
-  CMD ["fastapi", "run", "src/main.py"]
+CMD ["fastapi", "run", "src/main.py"]
